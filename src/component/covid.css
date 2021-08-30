@@ -1,0 +1,95 @@
+* {
+  background-color: rgba(169, 169, 169, 0.275);
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+.mainbody {
+  background-color: rgb(68, 66, 66);
+  padding: 20px;
+  text-align: center;
+  min-height: 100vh;
+  align-items: center;
+}
+/* 
+  h1,
+  p,
+  h2 {
+    color: white;
+  } */
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card_main {
+  height: 150px;
+  width: 400px;
+  margin: 25px;
+  align-items: center;
+  background-color: rgb(116, 116, 209);
+  cursor: pointer;
+}
+.card_main-1 {
+  height: 150px;
+  width: 400px;
+  margin: 25px;
+  align-items: center;
+  background-color: green;
+  cursor: pointer;
+}
+.card_main-2 {
+  height: 150px;
+  width: 400px;
+  margin: 25px;
+  align-items: center;
+  background-color: rgba(255, 255, 0, 0.583);
+  cursor: pointer;
+}
+.card_main-3 {
+  height: 150px;
+  width: 400px;
+  margin: 25px;
+  align-items: center;
+  background-color: rgba(255, 89, 0, 0.542);
+  cursor: pointer;
+}
+.card_main-4 {
+  height: 150px;
+  width: 400px;
+  margin: 25px;
+  align-items: center;
+  background-color: rgba(34, 0, 255, 0.296);
+  cursor: pointer;
+}
+.card_main-5 {
+  height: 150px;
+  width: 400px;
+  margin: 25px;
+  align-items: center;
+  background-color: rgb(116, 116, 209);
+  cursor: pointer;
+}
+
+.card_name {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.card_name span {
+  font-size: 15px;
+}
+
+.card_total {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card_small:hover {
+  color: white;
+}
